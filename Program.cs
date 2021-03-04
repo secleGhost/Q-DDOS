@@ -229,6 +229,7 @@ namespace Q_DDOS
                     pasar = false;
                 }
             } while (pasar == false);
+            Console.WriteLine("WAIT");
 
             string url = cadena[0];
             int puerto = Convert.ToInt32(cadena[1]);
